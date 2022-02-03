@@ -102,7 +102,7 @@ export const projects = [
   {
     name: "Meal Sharing App",
     about:
-      "React Web app for people who wants to share food.You can reserve the portion of meal. Every people can put their experience and rating on that meal.People can check rating and read others experience. Anybody can share their meal through admin part",
+      "React Web app for people who wants to share food.You can reserve the portion of meal. Every people can put their experience and rating on that meal.People can check rating and read others experience. Anybody can share their meal & details of meals through admin part",
     technologies: "React js, Nodejs, MySQL, HTML, CSS, JavaScript, Postman",
     image: require("./assets/meal.png"),
     github: "https://github.com/seenachacko/meal-sharing",
