@@ -102,7 +102,7 @@ export const projects = [
   {
     name: "Meal Sharing App",
     about:
-      "React Web app for people who wants to share food.You can reserve the portion of meal. Every people can put their experience and rating on that meal.People can check rating and read others experience. Anybody can share their meal ,they add their meal and details through admin part",
+      "React Web app for people who wants to share food.You can reserve the portion of meal. Every people can put their experience and rating on that meal.People can check rating and read others experience. Anybody can share their meal through admin part",
     technologies: "React js, Nodejs, MySQL, HTML, CSS, JavaScript, Postman",
     image: require("./assets/meal.png"),
     github: "https://github.com/seenachacko/meal-sharing",
@@ -110,7 +110,8 @@ export const projects = [
   },
   {
     name: "Github User's search",
-    about: "Simple React Web-app for search the GitHub users.we can seach by typing the name of user,it will show the profile picture ana name f the users .By clicking on the name we can see the accout of that particular GitHub user",
+    about:
+      "Simple React Web-app for search the GitHub users.we can seach by typing the name of user,it will show the profile picture ana name f the users .By clicking on the name we can see the accout of that particular GitHub user",
     image: require("./assets/gitsearch.png"),
     technologies: "React js, HTML, CSS, JavaScript",
     github: "https://github.com/seenachacko/github-search/tree/main/git-app",
@@ -121,8 +122,8 @@ export const projects = [
     name: "Fast Presser Game",
     about:
       "It is a key press Game based on JavaScript,We have to countinously press two keys(l&s) on keyboard,the application will count the number of key press in limited time period. After that time we can see who is the winner.",
-    image:require("./assets/fast.png"),
-    technologies: "React js, HTML, CSS, JavaScript",
+    image: require("./assets/fast.png"),
+    technologies: "HTML, CSS, JavaScript",
     github: "https://github.com/seenachacko/fast-presser-Game",
     demo: "https://htmlpreview.github.io/?https://github.com/seenachacko/fast-presser-Game/blob/main/fastPresser.html",
   },
