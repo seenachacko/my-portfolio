@@ -16,7 +16,7 @@ export default function About() {
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font sm:text-2xl text-1xl mb-2 font-small text-white">
             Seena Chacko
             Front-end Developer
           </h1>
@@ -26,8 +26,7 @@ export default function About() {
           </h2>
           <p className="mb-8 leading-relaxed">
             I am a software programmer with design and problem-solving skills. I
-            have knowledge and experience in React, JavaScript, HTML, CSS, Node
-            JS, Git, GitHub, MySQL and UX/UI designing. I am curious to learn
+            have knowledge and experience in ReactJS, JavaScript, HTML, CSS, NodeJS, Git, GitHub, MySQL and UX/UI designing. I am curious to learn
             new skills and now looking for a Front-end developer role to take
             next step in my career.
           </p>
