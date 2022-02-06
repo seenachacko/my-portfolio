@@ -18,10 +18,12 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Seena Chacko
-            <br className="hidden lg:inline-block" />
-            <br/>
             Front-end Developer
           </h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            Seena Chacko
+            Front-end Developer
+          </h2>
           <p className="mb-8 leading-relaxed">
             I am a software programmer with design and problem-solving skills. I
             have knowledge and experience in React, JavaScript, HTML, CSS, Node
