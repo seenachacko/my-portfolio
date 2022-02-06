@@ -19,6 +19,7 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Seena Chacko
             <br className="hidden lg:inline-block" />
+            <br/>
             Front-end Developer
           </h1>
           <p className="mb-8 leading-relaxed">
