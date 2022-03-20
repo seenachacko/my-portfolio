@@ -13,12 +13,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-wrap -m-0">
             {projects.map((project) => (
-              <a
-                target="_blank"
-                href={project.demo}
-                key={project.image}
-                className="sm:w-1/2 w-100 p-4"
-              >
+              <div className="sm:w-1/2 w-100 p-4" key={project.image}>
                 <div className="flex relative">
                   <img
                     alt="gallery"
@@ -36,7 +31,21 @@ const Projects = () => {
                     <p className="leading-relaxed">{project.about}</p>
                   </div>
                 </div>
-              </a>
+                <a
+                  target="_blank"
+                  className="mr-5 hover:text-white"
+                  href={project.demo}
+                >
+                  <u>Demo</u>
+                </a>
+                <a
+                  target="_blank"
+                  href={project.code}
+                  className="mr-5 hover:text-white"
+                >
+                  <u>View code</u>
+                </a>
+              </div>
             ))}
           </div>
         </div>

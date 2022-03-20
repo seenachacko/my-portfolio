@@ -1,8 +1,8 @@
 import React from "react";
 import me from "../assets/mee.png";
-import { MailOpenIcon } from "@heroicons/react/solid";
-import { PhoneIcon } from "@heroicons/react/solid";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { MailOpenIcon } from "@heroicons/react/solid";
+// import { PhoneIcon } from "@heroicons/react/solid";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function About() {
   return (
@@ -24,12 +24,12 @@ export default function About() {
           </h2>
           <p className="mb-8 leading-relaxed">
             I am a software programmer with design and problem-solving skills. I
-            have knowledge and experience in ReactJS, JavaScript, HTML, CSS, NodeJS, Git, GitHub, MySQL and UX/UI designing. I am curious to learn
-            new skills and now looking for a Front-end developer role to take
-            next step in my career.
+            have knowledge and experience in ReactJS, JavaScript, HTML, CSS,
+            NodeJS, Git, GitHub, MySQL and UX/UI designing. I am curious to
+            learn new skills and now looking for a Front-end developer role to
+            take next step in my career.
           </p>
-          
-          
+
           <div className="flex justify-center">
             <a
               href="#contact"

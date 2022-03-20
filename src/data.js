@@ -98,6 +98,7 @@ export const projects = [
     image: require("./assets/sim.png"),
     github: "https://github.com/HackYourFuture-CPH/simply-name.it",
     demo: "https://www.feats.co/project/simply-nameit",
+    code: "https://github.com/HackYourFuture-CPH/simply-name.it",
   },
   {
     name: "Meal Sharing App",
@@ -107,6 +108,7 @@ export const projects = [
     image: require("./assets/meal.png"),
     github: "https://github.com/seenachacko/meal-sharing",
     demo: "https://mealsharing-seena.herokuapp.com/",
+    code: "https://github.com/seenachacko/meal-sharing",
   },
   {
     name: "Github User's search",
@@ -116,6 +118,7 @@ export const projects = [
     technologies: "React js, HTML, CSS, JavaScript",
     github: "https://github.com/seenachacko/github-search/tree/main/git-app",
     demo: "https://seena-github-users-search.herokuapp.com/",
+    code: "https://github.com/seenachacko/github-search/tree/main/git-app",
   },
 
   {
@@ -126,5 +129,6 @@ export const projects = [
     technologies: "HTML, CSS, JavaScript",
     github: "https://github.com/seenachacko/fast-presser-Game",
     demo: "https://htmlpreview.github.io/?https://github.com/seenachacko/fast-presser-Game/blob/main/fastPresser.html",
+    code: "https://github.com/seenachacko/fast-presser-Game",
   },
 ];
